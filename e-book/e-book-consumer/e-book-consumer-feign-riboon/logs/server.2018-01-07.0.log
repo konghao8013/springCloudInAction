@@ -1,0 +1,400 @@
+20:15:23.280 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4466af20: startup date [Sun Jan 07 20:15:23 CST 2018]; root of context hierarchy
+20:15:23.655 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+20:15:23.683 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:15:23.731 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2abac970] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:15:24.356 [main] INFO  c.k.b.consumer.ConsumerApplication - No active profile set, falling back to default profiles: default
+20:15:24.378 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b835480: startup date [Sun Jan 07 20:15:24 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4466af20
+20:15:25.372 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=dc5a09f0-4cb1-3e0a-9491-6b7ea17b7bfd
+20:15:25.418 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:15:25.477 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.konghao.book.consumer.service.ProductService' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:15:25.561 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2abac970] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:15:26.235 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+20:15:26.258 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:15:26.259 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+20:15:26.517 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:15:26.518 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2140 ms
+20:15:26.766 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+20:15:26.772 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:15:26.774 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:15:26.774 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:15:26.774 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+20:15:26.864 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@61d01788: startup date [Sun Jan 07 20:15:26 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b835480
+20:15:26.897 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:15:27.715 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+20:15:27.720 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+20:15:27.747 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+20:15:27.748 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+20:15:28.102 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b835480: startup date [Sun Jan 07 20:15:24 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4466af20
+20:15:28.231 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/list],methods=[GET]}" onto public java.util.List<com.konghao.book.product.domain.Product> com.konghao.book.consumer.controller.ProductController.listProduct()
+20:15:28.251 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/list],methods=[GET]}" onto public abstract java.util.List<com.konghao.book.product.domain.Product> com.konghao.book.product.facade.ProductFacade.listProduct()
+20:15:28.252 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/get],methods=[GET]}" onto public abstract com.konghao.book.product.domain.Product com.konghao.book.product.facade.ProductFacade.getProduct(int)
+20:15:28.252 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/get2],methods=[GET]}" onto public abstract com.konghao.book.product.domain.Product com.konghao.book.product.facade.ProductFacade.getProduct2(int,java.lang.String)
+20:15:28.253 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/add],methods=[POST],consumes=[application/json]}" onto public abstract com.konghao.book.product.domain.Product com.konghao.book.product.facade.ProductFacade.addProduct(com.konghao.book.product.domain.Product)
+20:15:28.253 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/get1],methods=[GET],consumes=[application/json]}" onto public abstract com.konghao.book.product.domain.Product com.konghao.book.product.facade.ProductFacade.getProduct1(com.konghao.book.product.domain.Product)
+20:15:28.256 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:15:28.257 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:15:28.341 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:15:28.341 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:15:28.381 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:15:28.868 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+20:15:28.885 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+20:15:28.890 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+20:15:28.895 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+20:15:28.904 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+20:15:28.929 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+20:15:28.970 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=1b835480,type=ConfigurationPropertiesRebinder]
+20:15:29.263 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+20:15:29.275 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+20:15:29.422 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+20:15:29.921 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+20:15:29.922 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+20:15:30.138 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+20:15:30.138 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+20:15:30.506 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+20:15:30.623 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+20:15:30.623 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+20:15:30.623 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+20:15:30.623 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+20:15:30.624 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+20:15:30.624 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+20:15:30.624 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+20:15:31.036 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+20:15:31.041 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+20:15:31.048 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+20:15:31.053 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1515327331052 with initial instances count: 6
+20:15:31.116 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application e-book-consumer with eureka with status UP
+20:15:31.123 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1515327331123, current=UP, previous=STARTING]
+20:15:31.128 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_E-BOOK-CONSUMER/DESKTOP-CCLRIAF:e-book-consumer:8090: registering service...
+20:15:31.166 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+20:15:31.207 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+20:15:31.219 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_E-BOOK-CONSUMER/DESKTOP-CCLRIAF:e-book-consumer:8090 - registration status: 204
+20:15:31.239 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+20:15:31.289 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+20:15:31.292 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8090
+20:15:31.298 [main] INFO  c.k.b.consumer.ConsumerApplication - Started ConsumerApplication in 8.576 seconds (JVM running for 9.348)
+20:15:39.111 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+20:15:39.111 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+20:15:39.156 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms
+20:15:39.196 [http-nio-8090-exec-1] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7fe91455: startup date [Sun Jan 07 20:15:39 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b835480
+20:15:39.322 [http-nio-8090-exec-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:15:39.698 [http-nio-8090-exec-1] INFO  c.n.config.ChainedDynamicProperty - Flipping property: e-book-product.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+20:15:39.733 [http-nio-8090-exec-1] INFO  c.n.u.c.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-e-book-product
+20:15:39.790 [http-nio-8090-exec-1] INFO  c.n.loadbalancer.BaseLoadBalancer - Client: e-book-product instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=e-book-product,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+20:15:39.801 [http-nio-8090-exec-1] INFO  c.n.l.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+20:15:39.835 [http-nio-8090-exec-1] INFO  c.n.config.ChainedDynamicProperty - Flipping property: e-book-product.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+20:15:39.845 [http-nio-8090-exec-1] INFO  c.n.l.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client e-book-product initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=e-book-product,current list of Servers=[DESKTOP-CCLRIAF:8083],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-CCLRIAF:8083;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@353ff887
+20:15:40.805 [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty - Flipping property: e-book-product.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+20:15:50.113 [http-nio-8090-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is feign.RetryableException: Read timed out executing GET http://e-book-product/product/list] with root cause
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at feign.Client$Default.convertResponse(Client.java:152)
+	at feign.Client$Default.execute(Client.java:74)
+	at org.springframework.cloud.netflix.feign.ribbon.FeignLoadBalancer.execute(FeignLoadBalancer.java:80)
+	at org.springframework.cloud.netflix.feign.ribbon.FeignLoadBalancer.execute(FeignLoadBalancer.java:48)
+	at com.netflix.client.AbstractLoadBalancerAwareClient$1.call(AbstractLoadBalancerAwareClient.java:109)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$3$1.call(LoadBalancerCommand.java:303)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$3$1.call(LoadBalancerCommand.java:287)
+	at rx.internal.util.ScalarSynchronousObservable$3.call(ScalarSynchronousObservable.java:231)
+	at rx.internal.util.ScalarSynchronousObservable$3.call(ScalarSynchronousObservable.java:228)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OnSubscribeConcatMap$ConcatMapSubscriber.drain(OnSubscribeConcatMap.java:286)
+	at rx.internal.operators.OnSubscribeConcatMap$ConcatMapSubscriber.onNext(OnSubscribeConcatMap.java:144)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:185)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10307)
+	at rx.Observable.subscribe(Observable.java:10274)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:445)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:342)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:117)
+	at org.springframework.cloud.netflix.feign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:63)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:97)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:76)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
+	at com.sun.proxy.$Proxy73.listProduct(Unknown Source)
+	at com.konghao.book.consumer.controller.ProductController.listProduct(ProductController.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+20:31:02.433 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4466af20: startup date [Sun Jan 07 20:31:02 CST 2018]; root of context hierarchy
+20:31:03.055 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:31:03.113 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+20:31:03.120 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2abac970] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:31:03.949 [main] INFO  c.k.b.consumer.ConsumerApplication - No active profile set, falling back to default profiles: default
+20:31:04.015 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b835480: startup date [Sun Jan 07 20:31:04 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4466af20
+20:31:05.713 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=dc5a09f0-4cb1-3e0a-9491-6b7ea17b7bfd
+20:31:05.761 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:31:05.790 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.konghao.book.consumer.service.ProductService' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:31:05.862 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2abac970] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20:31:06.670 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8090 (http)
+20:31:06.685 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:31:06.688 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+20:31:07.021 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:31:07.021 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3006 ms
+20:31:07.313 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+20:31:07.319 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+20:31:07.319 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+20:31:07.319 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+20:31:07.319 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+20:31:07.395 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@61d01788: startup date [Sun Jan 07 20:31:07 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b835480
+20:31:07.435 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:31:08.690 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+20:31:08.691 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+20:31:08.710 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+20:31:08.712 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+20:31:09.096 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b835480: startup date [Sun Jan 07 20:31:04 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4466af20
+20:31:09.252 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/list],methods=[GET]}" onto public java.util.List<com.konghao.book.product.domain.Product> com.konghao.book.consumer.controller.ProductController.listProduct()
+20:31:09.264 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/get2],methods=[GET]}" onto public abstract com.konghao.book.product.domain.Product com.konghao.book.product.facade.ProductFacade.getProduct2(int,java.lang.String)
+20:31:09.265 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/get],methods=[GET]}" onto public abstract com.konghao.book.product.domain.Product com.konghao.book.product.facade.ProductFacade.getProduct(int)
+20:31:09.266 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/get1],methods=[GET],consumes=[application/json]}" onto public abstract com.konghao.book.product.domain.Product com.konghao.book.product.facade.ProductFacade.getProduct1(com.konghao.book.product.domain.Product)
+20:31:09.267 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/add],methods=[POST],consumes=[application/json]}" onto public abstract com.konghao.book.product.domain.Product com.konghao.book.product.facade.ProductFacade.addProduct(com.konghao.book.product.domain.Product)
+20:31:09.269 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/product/list],methods=[GET]}" onto public abstract java.util.List<com.konghao.book.product.domain.Product> com.konghao.book.product.facade.ProductFacade.listProduct()
+20:31:09.273 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+20:31:09.274 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+20:31:09.391 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:31:09.393 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:31:09.550 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+20:31:10.296 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+20:31:10.311 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+20:31:10.314 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+20:31:10.317 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+20:31:10.324 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+20:31:10.342 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+20:31:10.358 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=1b835480,type=ConfigurationPropertiesRebinder]
+20:31:10.588 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+20:31:10.606 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+20:31:10.712 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+20:31:11.473 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+20:31:11.476 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+20:31:11.940 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+20:31:11.941 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+20:31:12.698 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+20:31:12.818 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+20:31:12.818 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+20:31:12.818 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+20:31:12.819 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+20:31:12.819 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+20:31:12.819 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+20:31:12.819 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+20:31:13.280 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+20:31:13.284 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+20:31:13.289 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+20:31:13.294 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1515328273294 with initial instances count: 6
+20:31:13.346 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application e-book-consumer with eureka with status UP
+20:31:13.347 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1515328273347, current=UP, previous=STARTING]
+20:31:13.355 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_E-BOOK-CONSUMER/DESKTOP-CCLRIAF:e-book-consumer:8090: registering service...
+20:31:13.383 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+20:31:13.409 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+20:31:13.411 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_E-BOOK-CONSUMER/DESKTOP-CCLRIAF:e-book-consumer:8090 - registration status: 204
+20:31:13.436 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+20:31:13.463 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8090 (http)
+20:31:13.465 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8090
+20:31:13.470 [main] INFO  c.k.b.consumer.ConsumerApplication - Started ConsumerApplication in 12.387 seconds (JVM running for 13.956)
+20:31:22.013 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+20:31:22.013 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+20:31:22.025 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+20:31:22.043 [http-nio-8090-exec-1] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@75921822: startup date [Sun Jan 07 20:31:22 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1b835480
+20:31:22.088 [http-nio-8090-exec-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+20:31:22.422 [http-nio-8090-exec-1] INFO  c.n.config.ChainedDynamicProperty - Flipping property: e-book-product.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+20:31:22.499 [http-nio-8090-exec-1] INFO  c.n.u.c.ShutdownEnabledTimer - Shutdown hook installed for: NFLoadBalancer-PingTimer-e-book-product
+20:31:22.578 [http-nio-8090-exec-1] INFO  c.n.loadbalancer.BaseLoadBalancer - Client: e-book-product instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=e-book-product,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+20:31:22.605 [http-nio-8090-exec-1] INFO  c.n.l.DynamicServerListLoadBalancer - Using serverListUpdater PollingServerListUpdater
+20:31:22.659 [http-nio-8090-exec-1] INFO  c.n.config.ChainedDynamicProperty - Flipping property: e-book-product.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+20:31:22.666 [http-nio-8090-exec-1] INFO  c.n.l.DynamicServerListLoadBalancer - DynamicServerListLoadBalancer for client e-book-product initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=e-book-product,current list of Servers=[DESKTOP-CCLRIAF:8083],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-CCLRIAF:8083;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@5962b147
+20:31:23.610 [PollingServerListUpdater-0] INFO  c.n.config.ChainedDynamicProperty - Flipping property: e-book-product.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+20:31:31.997 [http-nio-8090-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is feign.RetryableException: Read timed out executing GET http://e-book-product/product/list] with root cause
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:735)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:678)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1569)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at feign.Client$Default.convertResponse(Client.java:152)
+	at feign.Client$Default.execute(Client.java:74)
+	at org.springframework.cloud.netflix.feign.ribbon.FeignLoadBalancer.execute(FeignLoadBalancer.java:80)
+	at org.springframework.cloud.netflix.feign.ribbon.FeignLoadBalancer.execute(FeignLoadBalancer.java:48)
+	at com.netflix.client.AbstractLoadBalancerAwareClient$1.call(AbstractLoadBalancerAwareClient.java:109)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$3$1.call(LoadBalancerCommand.java:303)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$3$1.call(LoadBalancerCommand.java:287)
+	at rx.internal.util.ScalarSynchronousObservable$3.call(ScalarSynchronousObservable.java:231)
+	at rx.internal.util.ScalarSynchronousObservable$3.call(ScalarSynchronousObservable.java:228)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber$1.call(OperatorRetryWithPredicate.java:127)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.enqueue(TrampolineScheduler.java:73)
+	at rx.internal.schedulers.TrampolineScheduler$InnerCurrentThreadScheduler.schedule(TrampolineScheduler.java:52)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:79)
+	at rx.internal.operators.OperatorRetryWithPredicate$SourceSubscriber.onNext(OperatorRetryWithPredicate.java:45)
+	at rx.internal.util.ScalarSynchronousObservable$WeakSingleProducer.request(ScalarSynchronousObservable.java:276)
+	at rx.Subscriber.setProducer(Subscriber.java:209)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:138)
+	at rx.internal.util.ScalarSynchronousObservable$JustOnSubscribe.call(ScalarSynchronousObservable.java:129)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OnSubscribeConcatMap$ConcatMapSubscriber.drain(OnSubscribeConcatMap.java:286)
+	at rx.internal.operators.OnSubscribeConcatMap$ConcatMapSubscriber.onNext(OnSubscribeConcatMap.java:144)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:185)
+	at com.netflix.loadbalancer.reactive.LoadBalancerCommand$1.call(LoadBalancerCommand.java:180)
+	at rx.Observable.unsafeSubscribe(Observable.java:10211)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:94)
+	at rx.internal.operators.OnSubscribeConcatMap.call(OnSubscribeConcatMap.java:42)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10307)
+	at rx.Observable.subscribe(Observable.java:10274)
+	at rx.observables.BlockingObservable.blockForSingle(BlockingObservable.java:445)
+	at rx.observables.BlockingObservable.single(BlockingObservable.java:342)
+	at com.netflix.client.AbstractLoadBalancerAwareClient.executeWithLoadBalancer(AbstractLoadBalancerAwareClient.java:117)
+	at org.springframework.cloud.netflix.feign.ribbon.LoadBalancerFeignClient.execute(LoadBalancerFeignClient.java:63)
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:97)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:76)
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:103)
+	at com.sun.proxy.$Proxy73.listProduct(Unknown Source)
+	at com.konghao.book.consumer.controller.ProductController.listProduct(ProductController.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
