@@ -6,7 +6,10 @@
 		<artifactId>e-book</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
+	<groupId>com.konghao.springcloud</groupId>
 	<artifactId>e-book-consumer</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
 	<packaging>pom</packaging>
 
 	<dependencies>
@@ -26,6 +29,9 @@
 		<module>e-book-consumer-feign-riboon</module>
 
 		<module>e-book-consumer-hystrix</module>
+		
+		
+		
 	</modules>
 	<build />
 </project>

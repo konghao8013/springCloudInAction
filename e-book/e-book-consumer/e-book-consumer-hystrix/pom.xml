@@ -15,7 +15,10 @@
 		<module>e-book-consumer-hystrix-riboon-breaker</module>
 		<module>e-book-consumer-hystrix-riboon-threadpool</module>
 		<module>e-book-consumer-hystrix-riboon-semaphore</module>
-		
+		<module>e-book-consumer-hystrix-riboon-dashboard</module>
+		<module>e-book-consumer-hystrix-riboon-turbine</module>
+		<module>e-book-consumer-hystrix-feign-fallback</module>
+		<module>e-book-consumer-hystrix-feign-factory</module>
 	</modules>
 	<build />
 </project>
