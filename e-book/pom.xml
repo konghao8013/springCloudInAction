@@ -11,5 +11,9 @@
   <modules>
   	<module>e-book-product</module>
   	<module>e-book-consumer</module>
+    <module>e-book-user</module>
+    <module>e-book-order</module>
+    <module>e-book-trade</module>
+    
   </modules>
 </project>

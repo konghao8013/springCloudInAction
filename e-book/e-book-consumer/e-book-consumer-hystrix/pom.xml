@@ -19,6 +19,9 @@
 		<module>e-book-consumer-hystrix-riboon-turbine</module>
 		<module>e-book-consumer-hystrix-feign-fallback</module>
 		<module>e-book-consumer-hystrix-feign-factory</module>
+		
+		<module>e-book-consumer-hystrix-riboon-threadpool-mq</module>
+		<module>e-book-consumer-hystrix-riboon-turbine-mq</module>
 	</modules>
 	<build />
 </project>

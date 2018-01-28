@@ -1,25 +1,45 @@
 package com.konghao.book.product.domain;
 
-public class Product {
-	public Product(int id, String name) {
+import java.io.Serializable;
+import java.util.Date;
+
+public class Product implements Serializable {
+	public Product() {
+		super();
+	}
+
+	public Product(Integer id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
 	}
 
-	public Product() {
-		super();
-		// TODO 自动生成的构造函数存根
-	}
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1246644912211785386L;
 
-	private int id;
+	private Integer id;
+
 	private String name;
 
-	public int getId() {
+	private Byte status;
+
+	private Integer price;
+
+	private Byte deleted;
+
+	private Date createTime;
+
+	private Date updateTime;
+
+	private String detail;
+
+	public Integer getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -28,7 +48,54 @@ public class Product {
 	}
 
 	public void setName(String name) {
-		this.name = name;
+		this.name = name == null ? null : name.trim();
 	}
 
+	public Byte getStatus() {
+		return status;
+	}
+
+	public void setStatus(Byte status) {
+		this.status = status;
+	}
+
+	public Integer getPrice() {
+		return price;
+	}
+
+	public void setPrice(Integer price) {
+		this.price = price;
+	}
+
+	public Byte getDeleted() {
+		return deleted;
+	}
+
+	public void setDeleted(Byte deleted) {
+		this.deleted = deleted;
+	}
+
+	public Date getCreateTime() {
+		return createTime;
+	}
+
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
+
+	public Date getUpdateTime() {
+		return updateTime;
+	}
+
+	public void setUpdateTime(Date updateTime) {
+		this.updateTime = updateTime;
+	}
+
+	public String getDetail() {
+		return detail;
+	}
+
+	public void setDetail(String detail) {
+		this.detail = detail == null ? null : detail.trim();
+	}
 }

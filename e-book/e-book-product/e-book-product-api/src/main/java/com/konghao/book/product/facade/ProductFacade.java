@@ -18,15 +18,19 @@ public interface ProductFacade {
 	@RequestMapping(value = "list", method = RequestMethod.GET)
 	public List<Product> listProduct();
 
+	@RequestMapping(value = "findAllProduct", method = RequestMethod.GET)
+	public List<Product> findAllProduct();
+
 	@RequestMapping(value = "get", method = RequestMethod.GET)
 	public Product getProduct(@RequestParam("id") int id);
 
-	@RequestMapping(value = "get1", method = RequestMethod.GET,consumes=MediaType.APPLICATION_JSON_VALUE)
+	@RequestMapping(value = "get1", method = RequestMethod.GET, consumes = MediaType.APPLICATION_JSON_VALUE)
 	public Product getProduct1(Product obj);
+
 	@RequestMapping(value = "get2", method = RequestMethod.GET)
-	public Product getProduct2(@RequestParam("id") int id,@RequestParam("name") String name);
-	
-	@RequestMapping(value = "add", method = RequestMethod.POST,consumes=MediaType.APPLICATION_JSON_VALUE)
-	public Product addProduct(@RequestBody Product obj) ;
+	public Product getProduct2(@RequestParam("id") int id, @RequestParam("name") String name);
+
+	@RequestMapping(value = "add", method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+	public Product addProduct(@RequestBody Product obj);
 
 }

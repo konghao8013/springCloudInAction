@@ -29,6 +29,7 @@
 		<module>e-book-consumer-feign-riboon</module>
 
 		<module>e-book-consumer-hystrix</module>
+		<module>e-book-consumer-order</module>
 		
 		
 		
