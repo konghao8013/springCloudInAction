@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.konghao.springcloud</groupId>
+		<artifactId>e-book</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>zuul</artifactId>
+	<packaging>pom</packaging>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-eureka</artifactId>
+		</dependency>
+
+	</dependencies>
+
+	<modules>
+		<module>zuul-gateway</module>
+		<module>zuul-gateway-route</module>
+		<module>zuul-gateway-filter</module>
+		<module>zuul-gateway-filter-exeption</module>
+		<module>zuul-gateway-fallback</module>
+		
+	</modules>
+	<build />
+</project>

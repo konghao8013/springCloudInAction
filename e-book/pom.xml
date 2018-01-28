@@ -14,6 +14,7 @@
     <module>e-book-user</module>
     <module>e-book-order</module>
     <module>e-book-trade</module>
-    
+
+    <module>zuul</module>
   </modules>
 </project>
