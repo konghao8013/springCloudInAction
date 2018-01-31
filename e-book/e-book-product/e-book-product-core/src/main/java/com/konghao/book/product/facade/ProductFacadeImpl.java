@@ -26,6 +26,11 @@ public class ProductFacadeImpl implements ProductFacade {
 		 * try { Thread.sleep(1*1000); } catch (InterruptedException e) { //
 		 * TODO 自动生成的 catch 块 e.printStackTrace(); }
 		 */
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		return this.productService.findAllProduct();
 	}
 
