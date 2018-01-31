@@ -3,6 +3,7 @@ package com.konghao.book.consumer.order.controller;
 import java.util.Date;
 import java.util.List;
 
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -40,8 +41,7 @@ public class OrderController {
 	 */
 	@RequestMapping(value = "/createOrder", method = RequestMethod.GET)
 	public List<Order> createOrder() {
-
-		// 1.测试登录 账号 admin admin
+	    // 1.测试登录 账号 admin admin
 		Integer userid = this.login();
 		// 2.查看所有产品列表
 		List<Product> products = this.productService.findAllProduct();
@@ -57,6 +57,7 @@ public class OrderController {
 		order.setCreateTime(new Date());
 		order.setUpdateTime(new Date());
 		Integer orderid = this.orderService.createOrder(order);
+
 		// System.out.println(order.getId()+"------------------------------------------------");
 		// return null;
 		// 4.实现订单交易支付

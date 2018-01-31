@@ -24,7 +24,8 @@
 		<module>zuul-gateway-filter</module>
 		<module>zuul-gateway-filter-exeption</module>
 		<module>zuul-gateway-fallback</module>
-		
+		<module>zuul-gateway-ratelimit</module>
+
 	</modules>
 	<build />
 </project>
