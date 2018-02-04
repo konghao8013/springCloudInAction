@@ -16,5 +16,6 @@
     <module>e-book-trade</module>
 
     <module>zuul</module>
+    <module>config</module>
   </modules>
 </project>
