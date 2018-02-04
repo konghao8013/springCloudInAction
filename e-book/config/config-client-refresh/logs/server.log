@@ -2288,4 +2288,1097 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'bo
 20:45:47.837 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
 20:50:47.838 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
 20:55:47.839 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
-21:00:47.840 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:01:56.831 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4ec4f3a0: startup date [Sun Feb 04 21:01:56 CST 2018]; root of context hierarchy
+21:01:57.209 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+21:01:57.335 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:01:57.441 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$af4bba73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:01:57.984 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:01:58.122 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:01:58.562 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:01:58.563 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:01:58.737 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:01:58.737 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:01:59.052 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:01:59.132 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:01:59.132 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:01:59.132 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:01:59.133 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:01:59.133 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:01:59.133 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:01:59.133 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:01:59.466 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:01:59.470 [main] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:01:59.479 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749319478 with initial instances count: 6
+21:01:59.949 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:02:01.145 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=9f63b2d2a26bb1435c332192353bff69dfc14173, state=null
+21:02:01.146 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:02:01.148 [main] INFO  c.k.b.config.ConfigClientApplication - No active profile set, falling back to default profiles: default
+21:02:01.158 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@14ef2482: startup date [Sun Feb 04 21:02:01 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4ec4f3a0
+21:02:01.884 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c4d9b1f4-af49-39fc-9b18-d48548b043c0
+21:02:01.912 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:02:01.963 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$af4bba73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:02:02.398 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9031 (http)
+21:02:02.407 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:02:02.408 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+21:02:02.592 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:02:02.593 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1435 ms
+21:02:02.897 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+21:02:02.905 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+21:02:02.910 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+21:02:02.910 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+21:02:02.911 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+21:02:03.486 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+21:02:03.487 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+21:02:03.501 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+21:02:03.501 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+21:02:03.787 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@14ef2482: startup date [Sun Feb 04 21:02:01 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4ec4f3a0
+21:02:03.892 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String com.konghao.book.config.controller.TestController.test()
+21:02:03.900 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+21:02:03.902 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+21:02:03.957 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:02:03.957 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:02:04.039 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:02:04.484 [main] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:02:04.494 [main] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:02:04.565 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+21:02:04.574 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+21:02:04.575 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+21:02:04.576 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+21:02:04.580 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+21:02:04.598 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+21:02:04.616 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=14ef2482,type=ConfigurationPropertiesRebinder]
+21:02:04.851 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+21:02:04.861 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:02:04.885 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:02:04.892 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:02:04.893 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:02:04.893 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:02:04.893 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:02:04.973 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:02:04.974 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:02:04.975 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:02:04.975 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:02:04.975 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:02:04.975 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:02:04.975 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:02:04.979 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:02:04.987 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:02:04.989 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:02:04.993 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:02:04.995 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749324995 with initial instances count: 6
+21:02:05.036 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:02:05.036 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749325036, current=UP, previous=STARTING]
+21:02:05.039 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:02:05.062 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9031"]
+21:02:05.083 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9031"]
+21:02:05.087 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:02:05.099 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+21:02:05.130 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9031 (http)
+21:02:05.133 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9031
+21:02:05.144 [main] INFO  c.k.b.config.ConfigClientApplication - Started ConfigClientApplication in 8.876 seconds (JVM running for 9.533)
+21:02:08.696 [http-nio-9031-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+21:02:08.696 [http-nio-9031-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+21:02:08.725 [http-nio-9031-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+21:05:55.366 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2a3b5b47: startup date [Sun Feb 04 21:05:55 CST 2018]; root of context hierarchy
+21:05:55.559 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+21:05:55.609 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:05:55.632 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:05:55.913 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:05:55.991 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:05:56.253 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:05:56.253 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:05:56.330 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:05:56.330 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:05:56.465 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:05:56.520 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:05:56.520 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:05:56.520 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:05:56.520 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:05:56.520 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:05:56.521 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:05:56.521 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:05:56.660 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:05:56.662 [main] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:05:56.672 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749556672 with initial instances count: 6
+21:05:56.910 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:05:59.329 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=e1c3460c3e9d3b4dabeae1eac1eefdd438d09fb5, state=null
+21:05:59.330 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:05:59.332 [main] INFO  c.k.b.config.ConfigClientApplication - No active profile set, falling back to default profiles: default
+21:05:59.344 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62db3891: startup date [Sun Feb 04 21:05:59 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2a3b5b47
+21:06:00.025 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ce4c9ec7-850d-3df2-9497-92acae2a2ae8
+21:06:00.039 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:06:00.093 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$26e4b7f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:06:00.103 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:06:00.335 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9031 (http)
+21:06:00.345 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:06:00.346 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+21:06:00.489 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:06:00.490 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1146 ms
+21:06:00.696 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+21:06:00.700 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+21:06:00.701 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+21:06:00.701 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+21:06:00.701 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+21:06:00.701 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+21:06:00.701 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+21:06:00.701 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+21:06:00.962 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+21:06:00.962 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+21:06:00.965 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+21:06:00.966 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+21:06:01.126 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62db3891: startup date [Sun Feb 04 21:05:59 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2a3b5b47
+21:06:01.197 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String com.konghao.book.config.controller.TestController.test()
+21:06:01.199 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+21:06:01.200 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+21:06:01.222 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:06:01.222 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:06:01.269 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:06:01.655 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:06:01.656 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:06:01.656 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+21:06:01.656 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:06:01.657 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+21:06:01.658 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+21:06:01.658 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:06:01.658 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+21:06:01.658 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+21:06:01.659 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:06:01.661 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+21:06:01.662 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+21:06:01.662 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:06:01.662 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:06:01.663 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:06:01.663 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:06:01.664 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+21:06:01.664 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:06:01.665 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+21:06:01.665 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+21:06:01.667 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+21:06:01.667 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+21:06:01.668 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:06:01.668 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+21:06:01.668 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:06:01.669 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+21:06:01.669 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+21:06:01.762 [main] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:06:01.769 [main] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:06:01.807 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+21:06:01.813 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+21:06:01.814 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+21:06:01.814 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+21:06:01.815 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+21:06:01.815 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+21:06:01.816 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+21:06:01.818 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+21:06:01.831 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+21:06:01.838 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+21:06:01.844 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+21:06:01.851 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=62db3891,type=ConfigurationPropertiesRebinder]
+21:06:01.855 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+21:06:01.856 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Registering beans for JMX exposure on startup
+21:06:02.005 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+21:06:02.009 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:06:02.016 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:06:02.019 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:06:02.019 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:06:02.019 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:06:02.019 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:06:02.055 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:06:02.056 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:06:02.056 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:06:02.056 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:06:02.056 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:06:02.056 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:06:02.057 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:06:02.057 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:06:02.067 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:06:02.068 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:06:02.069 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:06:02.070 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749562070 with initial instances count: 6
+21:06:02.089 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:06:02.090 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749562090, current=UP, previous=STARTING]
+21:06:02.091 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:06:02.093 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+21:06:02.097 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+21:06:02.101 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+21:06:02.103 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+21:06:02.105 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+21:06:02.108 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+21:06:02.110 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+21:06:02.112 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+21:06:02.114 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+21:06:02.118 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+21:06:02.120 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+21:06:02.121 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+21:06:02.122 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+21:06:02.123 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+21:06:02.124 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:06:02.142 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9031"]
+21:06:02.151 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9031"]
+21:06:02.160 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+21:06:02.174 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9031 (http)
+21:06:02.175 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9031
+21:06:02.178 [main] INFO  c.k.b.config.ConfigClientApplication - Started ConfigClientApplication in 7.101 seconds (JVM running for 7.52)
+21:06:06.977 [http-nio-9031-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+21:06:06.977 [http-nio-9031-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+21:06:06.995 [http-nio-9031-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+21:07:00.368 [http-nio-9031-exec-3] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@32f4e6db: startup date [Sun Feb 04 21:07:00 CST 2018]; root of context hierarchy
+21:07:00.544 [http-nio-9031-exec-3] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:07:00.665 [http-nio-9031-exec-3] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:07:01.067 [http-nio-9031-exec-3] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:07:01.127 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:07:01.131 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:07:01.131 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:07:01.132 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:07:01.132 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:07:01.243 [http-nio-9031-exec-3] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:07:01.245 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:07:01.246 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:07:01.246 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:07:01.246 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:07:01.247 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:07:01.247 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:07:01.247 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:07:01.259 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:07:01.261 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:07:01.262 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749621262 with initial instances count: 6
+21:07:01.690 [http-nio-9031-exec-3] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:07:03.002 [http-nio-9031-exec-3] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=e1c3460c3e9d3b4dabeae1eac1eefdd438d09fb5, state=null
+21:07:03.002 [http-nio-9031-exec-3] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:07:03.003 [http-nio-9031-exec-3] INFO  o.s.boot.SpringApplication - No active profile set, falling back to default profiles: default
+21:07:03.005 [http-nio-9031-exec-3] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d5dd54: startup date [Sun Feb 04 21:07:03 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@32f4e6db
+21:07:03.006 [http-nio-9031-exec-3] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:07:03.014 [http-nio-9031-exec-3] INFO  o.s.boot.SpringApplication - Started application in 2.86 seconds (JVM running for 68.355)
+21:07:03.014 [http-nio-9031-exec-3] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@1d5dd54: startup date [Sun Feb 04 21:07:03 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@32f4e6db
+21:07:03.511 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:07:03.513 [http-nio-9031-exec-3] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:07:03.514 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+21:07:03.526 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - deregister  status: 200
+21:07:03.531 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:07:03.534 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:07:03.539 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:07:03.539 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:07:03.540 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:07:03.540 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:07:03.626 [http-nio-9031-exec-3] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:07:03.628 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:07:03.629 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:07:03.629 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:07:03.630 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:07:03.630 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:07:03.630 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:07:03.631 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:07:03.641 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:07:03.643 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:07:03.645 [http-nio-9031-exec-3] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:07:03.647 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749623647 with initial instances count: 6
+21:07:03.648 [http-nio-9031-exec-3] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application config-client with eureka with status DOWN
+21:07:03.649 [http-nio-9031-exec-3] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:07:03.649 [http-nio-9031-exec-3] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749623649, current=UP, previous=DOWN]
+21:07:03.650 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:07:03.661 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:07:57.749 [http-nio-9031-exec-9] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1670ec9b: startup date [Sun Feb 04 21:07:57 CST 2018]; root of context hierarchy
+21:07:57.825 [http-nio-9031-exec-9] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:07:57.830 [http-nio-9031-exec-9] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:07:58.089 [http-nio-9031-exec-9] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:07:58.127 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:07:58.135 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:07:58.137 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:07:58.138 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:07:58.141 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:07:58.259 [http-nio-9031-exec-9] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:07:58.261 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:07:58.261 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:07:58.262 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:07:58.262 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:07:58.262 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:07:58.262 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:07:58.262 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:07:58.268 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:07:58.269 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:07:58.270 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749678270 with initial instances count: 6
+21:07:58.625 [http-nio-9031-exec-9] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:08:00.098 [http-nio-9031-exec-9] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=74e19d63ffd191f94c574df45558fa02d3792df4, state=null
+21:08:00.098 [http-nio-9031-exec-9] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:08:00.099 [http-nio-9031-exec-9] INFO  o.s.boot.SpringApplication - No active profile set, falling back to default profiles: default
+21:08:00.103 [http-nio-9031-exec-9] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2fc8626f: startup date [Sun Feb 04 21:08:00 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1670ec9b
+21:08:00.106 [http-nio-9031-exec-9] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:08:00.113 [http-nio-9031-exec-9] INFO  o.s.boot.SpringApplication - Started application in 2.595 seconds (JVM running for 125.455)
+21:08:00.114 [http-nio-9031-exec-9] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2fc8626f: startup date [Sun Feb 04 21:08:00 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1670ec9b
+21:08:00.351 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:08:00.352 [http-nio-9031-exec-9] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:08:00.356 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+21:08:00.372 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - deregister  status: 200
+21:08:00.378 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:08:00.382 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:08:00.385 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:08:00.386 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:08:00.386 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:08:00.386 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:08:00.475 [http-nio-9031-exec-9] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:08:00.477 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:08:00.478 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:08:00.478 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:08:00.478 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:08:00.479 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:08:00.479 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:08:00.479 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:08:00.485 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:08:00.487 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:08:00.489 [http-nio-9031-exec-9] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:08:00.491 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749680491 with initial instances count: 6
+21:08:00.492 [http-nio-9031-exec-9] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application config-client with eureka with status DOWN
+21:08:00.493 [http-nio-9031-exec-9] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:08:00.493 [http-nio-9031-exec-9] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749680493, current=UP, previous=DOWN]
+21:08:00.494 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:08:00.505 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:08:18.150 [http-nio-9031-exec-10] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@29634503: startup date [Sun Feb 04 21:08:18 CST 2018]; root of context hierarchy
+21:08:18.193 [http-nio-9031-exec-10] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:08:18.195 [http-nio-9031-exec-10] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:08:18.419 [http-nio-9031-exec-10] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:08:18.466 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:08:18.472 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:08:18.473 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:08:18.474 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:08:18.474 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:08:18.573 [http-nio-9031-exec-10] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:08:18.576 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:08:18.577 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:08:18.577 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:08:18.578 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:08:18.578 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:08:18.579 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:08:18.580 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:08:18.590 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:08:18.593 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:08:18.594 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749698594 with initial instances count: 6
+21:08:18.802 [http-nio-9031-exec-10] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:08:20.585 [http-nio-9031-exec-10] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=74e19d63ffd191f94c574df45558fa02d3792df4, state=null
+21:08:20.586 [http-nio-9031-exec-10] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:08:20.587 [http-nio-9031-exec-10] INFO  o.s.boot.SpringApplication - No active profile set, falling back to default profiles: default
+21:08:20.588 [http-nio-9031-exec-10] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@70fe7b79: startup date [Sun Feb 04 21:08:20 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@29634503
+21:08:20.589 [http-nio-9031-exec-10] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:08:20.592 [http-nio-9031-exec-10] INFO  o.s.boot.SpringApplication - Started application in 2.621 seconds (JVM running for 145.934)
+21:08:20.592 [http-nio-9031-exec-10] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@70fe7b79: startup date [Sun Feb 04 21:08:20 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@29634503
+21:08:20.655 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:08:20.655 [http-nio-9031-exec-10] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:08:20.656 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+21:08:20.664 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - deregister  status: 200
+21:08:20.669 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:08:20.674 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:08:20.680 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:08:20.685 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:08:20.686 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:08:20.688 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:08:20.756 [http-nio-9031-exec-10] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:08:20.758 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:08:20.759 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:08:20.759 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:08:20.760 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:08:20.760 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:08:20.760 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:08:20.760 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:08:20.766 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:08:20.768 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:08:20.770 [http-nio-9031-exec-10] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:08:20.772 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749700772 with initial instances count: 6
+21:08:20.773 [http-nio-9031-exec-10] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application config-client with eureka with status DOWN
+21:08:20.774 [http-nio-9031-exec-10] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:08:20.774 [http-nio-9031-exec-10] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749700774, current=UP, previous=DOWN]
+21:08:20.775 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:08:20.785 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:09:50.519 [http-nio-9031-exec-2] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@65f01f83: startup date [Sun Feb 04 21:09:50 CST 2018]; root of context hierarchy
+21:09:50.546 [http-nio-9031-exec-2] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:09:50.548 [http-nio-9031-exec-2] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:09:50.658 [http-nio-9031-exec-2] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:09:50.685 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:09:50.688 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:09:50.688 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:09:50.689 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:09:50.689 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:09:50.747 [http-nio-9031-exec-2] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:09:50.748 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:09:50.748 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:09:50.748 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:09:50.749 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:09:50.749 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:09:50.749 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:09:50.749 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:09:50.753 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:09:50.754 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:09:50.754 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749790754 with initial instances count: 6
+21:09:50.882 [http-nio-9031-exec-2] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:09:53.987 [http-nio-9031-exec-2] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=29f1de57ef341aba44faa7dc6a8665762bdbbe13, state=null
+21:09:53.987 [http-nio-9031-exec-2] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:09:53.988 [http-nio-9031-exec-2] INFO  o.s.boot.SpringApplication - No active profile set, falling back to default profiles: default
+21:09:53.990 [http-nio-9031-exec-2] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@366e11de: startup date [Sun Feb 04 21:09:53 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@65f01f83
+21:09:53.990 [http-nio-9031-exec-2] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:09:53.993 [http-nio-9031-exec-2] INFO  o.s.boot.SpringApplication - Started application in 3.59 seconds (JVM running for 239.335)
+21:09:53.993 [http-nio-9031-exec-2] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@366e11de: startup date [Sun Feb 04 21:09:53 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@65f01f83
+21:09:54.060 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:09:54.061 [http-nio-9031-exec-2] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:09:54.062 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+21:09:54.065 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - deregister  status: 200
+21:09:54.067 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:09:54.069 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:09:54.070 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:09:54.070 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:09:54.070 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:09:54.071 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:09:54.104 [http-nio-9031-exec-2] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:09:54.105 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:09:54.105 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:09:54.105 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:09:54.106 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:09:54.106 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:09:54.106 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:09:54.106 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:09:54.110 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:09:54.111 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:09:54.111 [http-nio-9031-exec-2] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:09:54.111 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749794111 with initial instances count: 6
+21:09:54.112 [http-nio-9031-exec-2] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application config-client with eureka with status DOWN
+21:09:54.112 [http-nio-9031-exec-2] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:09:54.112 [http-nio-9031-exec-2] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749794112, current=UP, previous=DOWN]
+21:09:54.112 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:09:54.117 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:10:38.491 [http-nio-9031-exec-9] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2ad5d0ce: startup date [Sun Feb 04 21:10:38 CST 2018]; root of context hierarchy
+21:10:38.526 [http-nio-9031-exec-9] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:38.530 [http-nio-9031-exec-9] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:10:38.701 [http-nio-9031-exec-9] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:38.719 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:38.725 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:38.726 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:38.726 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:38.727 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:38.808 [http-nio-9031-exec-9] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:38.810 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:38.811 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:38.812 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:38.812 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:38.813 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:38.813 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:38.813 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:38.826 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:38.827 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:10:38.828 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749838828 with initial instances count: 6
+21:10:39.037 [http-nio-9031-exec-9] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:10:40.841 [http-nio-9031-exec-9] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=29f1de57ef341aba44faa7dc6a8665762bdbbe13, state=null
+21:10:40.842 [http-nio-9031-exec-9] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:10:40.843 [http-nio-9031-exec-9] INFO  o.s.boot.SpringApplication - No active profile set, falling back to default profiles: default
+21:10:40.847 [http-nio-9031-exec-9] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@c56a2fa: startup date [Sun Feb 04 21:10:40 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2ad5d0ce
+21:10:40.848 [http-nio-9031-exec-9] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:40.855 [http-nio-9031-exec-9] INFO  o.s.boot.SpringApplication - Started application in 2.581 seconds (JVM running for 286.196)
+21:10:40.856 [http-nio-9031-exec-9] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@c56a2fa: startup date [Sun Feb 04 21:10:40 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2ad5d0ce
+21:10:40.940 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:10:40.941 [http-nio-9031-exec-9] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:40.945 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+21:10:40.957 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - deregister  status: 200
+21:10:40.962 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:10:40.966 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:40.972 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:40.972 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:40.973 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:40.973 [http-nio-9031-exec-9] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:41.033 [http-nio-9031-exec-9] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:41.041 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:41.041 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:41.041 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:41.041 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:41.041 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:41.041 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:41.041 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:41.046 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:41.047 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:10:41.047 [http-nio-9031-exec-9] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:10:41.048 [http-nio-9031-exec-9] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749841048 with initial instances count: 6
+21:10:41.048 [http-nio-9031-exec-9] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application config-client with eureka with status DOWN
+21:10:41.049 [http-nio-9031-exec-9] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:10:41.049 [http-nio-9031-exec-9] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749841049, current=UP, previous=DOWN]
+21:10:41.049 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:10:41.054 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:10:41.216 [http-nio-9031-exec-6] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@9a3ae7d: startup date [Sun Feb 04 21:10:41 CST 2018]; root of context hierarchy
+21:10:41.241 [http-nio-9031-exec-6] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:41.243 [http-nio-9031-exec-6] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:10:41.385 [http-nio-9031-exec-6] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:41.405 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:41.413 [http-nio-9031-exec-6] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:41.415 [http-nio-9031-exec-6] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:41.416 [http-nio-9031-exec-6] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:41.417 [http-nio-9031-exec-6] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:41.472 [http-nio-9031-exec-6] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:41.474 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:41.474 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:41.475 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:41.475 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:41.475 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:41.475 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:41.476 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:41.489 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:41.491 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:10:41.493 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749841493 with initial instances count: 6
+21:10:41.720 [http-nio-9031-exec-6] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:10:42.621 [http-nio-9031-exec-6] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=29f1de57ef341aba44faa7dc6a8665762bdbbe13, state=null
+21:10:42.621 [http-nio-9031-exec-6] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:10:42.623 [http-nio-9031-exec-6] INFO  o.s.boot.SpringApplication - No active profile set, falling back to default profiles: default
+21:10:42.628 [http-nio-9031-exec-6] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7e31e3f1: startup date [Sun Feb 04 21:10:42 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@9a3ae7d
+21:10:42.632 [http-nio-9031-exec-6] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:42.639 [http-nio-9031-exec-6] INFO  o.s.boot.SpringApplication - Started application in 1.585 seconds (JVM running for 287.981)
+21:10:42.639 [http-nio-9031-exec-6] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7e31e3f1: startup date [Sun Feb 04 21:10:42 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@9a3ae7d
+21:10:42.714 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:10:42.715 [http-nio-9031-exec-6] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:42.716 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+21:10:42.722 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - deregister  status: 200
+21:10:42.726 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:10:42.729 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:42.733 [http-nio-9031-exec-6] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:42.734 [http-nio-9031-exec-6] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:42.734 [http-nio-9031-exec-6] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:42.734 [http-nio-9031-exec-6] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:42.787 [http-nio-9031-exec-6] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:42.789 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:42.789 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:42.790 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:42.790 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:42.790 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:42.790 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:42.790 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:42.794 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:42.795 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:10:42.796 [http-nio-9031-exec-6] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:10:42.797 [http-nio-9031-exec-6] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749842797 with initial instances count: 6
+21:10:42.798 [http-nio-9031-exec-6] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application config-client with eureka with status DOWN
+21:10:42.799 [http-nio-9031-exec-6] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:10:42.799 [http-nio-9031-exec-6] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749842799, current=UP, previous=DOWN]
+21:10:42.800 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:10:42.811 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:10:43.002 [http-nio-9031-exec-5] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@230a3112: startup date [Sun Feb 04 21:10:43 CST 2018]; root of context hierarchy
+21:10:43.028 [http-nio-9031-exec-5] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:43.030 [http-nio-9031-exec-5] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:10:43.179 [http-nio-9031-exec-5] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:43.198 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:43.202 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:43.203 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:43.205 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:43.207 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:43.284 [http-nio-9031-exec-5] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:43.285 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:43.285 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:43.285 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:43.286 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:43.286 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:43.286 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:43.286 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:43.290 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:43.290 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:10:43.291 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749843291 with initial instances count: 6
+21:10:43.511 [http-nio-9031-exec-5] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:10:44.460 [http-nio-9031-exec-5] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=29f1de57ef341aba44faa7dc6a8665762bdbbe13, state=null
+21:10:44.461 [http-nio-9031-exec-5] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:10:44.463 [http-nio-9031-exec-5] INFO  o.s.boot.SpringApplication - No active profile set, falling back to default profiles: default
+21:10:44.469 [http-nio-9031-exec-5] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@568e876b: startup date [Sun Feb 04 21:10:44 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@230a3112
+21:10:44.475 [http-nio-9031-exec-5] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:44.486 [http-nio-9031-exec-5] INFO  o.s.boot.SpringApplication - Started application in 1.672 seconds (JVM running for 289.826)
+21:10:44.489 [http-nio-9031-exec-5] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@568e876b: startup date [Sun Feb 04 21:10:44 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@230a3112
+21:10:44.628 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:10:44.629 [http-nio-9031-exec-5] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:44.632 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+21:10:44.643 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - deregister  status: 200
+21:10:44.652 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:10:44.655 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:44.662 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:44.663 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:44.664 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:44.664 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:44.729 [http-nio-9031-exec-5] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:44.732 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:44.733 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:44.733 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:44.733 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:44.733 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:44.734 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:44.734 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:44.739 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:44.741 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:10:44.742 [http-nio-9031-exec-5] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:10:44.744 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749844744 with initial instances count: 6
+21:10:44.746 [http-nio-9031-exec-5] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application config-client with eureka with status DOWN
+21:10:44.746 [http-nio-9031-exec-5] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:10:44.747 [http-nio-9031-exec-5] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749844747, current=UP, previous=DOWN]
+21:10:44.748 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:10:44.757 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:10:44.938 [http-nio-9031-exec-4] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@22e3eeab: startup date [Sun Feb 04 21:10:44 CST 2018]; root of context hierarchy
+21:10:44.982 [http-nio-9031-exec-4] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:44.983 [http-nio-9031-exec-4] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:10:45.157 [http-nio-9031-exec-4] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:45.173 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:45.176 [http-nio-9031-exec-4] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:45.177 [http-nio-9031-exec-4] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:45.177 [http-nio-9031-exec-4] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:45.178 [http-nio-9031-exec-4] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:45.243 [http-nio-9031-exec-4] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:45.246 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:45.248 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:45.249 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:45.249 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:45.250 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:45.250 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:45.250 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:45.256 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:45.258 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:10:45.259 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749845259 with initial instances count: 6
+21:10:45.436 [http-nio-9031-exec-4] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:10:46.452 [http-nio-9031-exec-4] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=29f1de57ef341aba44faa7dc6a8665762bdbbe13, state=null
+21:10:46.453 [http-nio-9031-exec-4] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:10:46.454 [http-nio-9031-exec-4] INFO  o.s.boot.SpringApplication - No active profile set, falling back to default profiles: default
+21:10:46.460 [http-nio-9031-exec-4] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@61f39c23: startup date [Sun Feb 04 21:10:46 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@22e3eeab
+21:10:46.464 [http-nio-9031-exec-4] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:46.468 [http-nio-9031-exec-4] INFO  o.s.boot.SpringApplication - Started application in 1.71 seconds (JVM running for 291.809)
+21:10:46.468 [http-nio-9031-exec-4] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@61f39c23: startup date [Sun Feb 04 21:10:46 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@22e3eeab
+21:10:46.557 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:10:46.557 [http-nio-9031-exec-4] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:46.558 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+21:10:46.561 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - deregister  status: 200
+21:10:46.566 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:10:46.569 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:46.574 [http-nio-9031-exec-4] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:46.574 [http-nio-9031-exec-4] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:46.575 [http-nio-9031-exec-4] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:46.575 [http-nio-9031-exec-4] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:46.625 [http-nio-9031-exec-4] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:46.628 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:46.629 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:46.630 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:46.632 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:46.633 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:46.634 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:46.641 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:46.651 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:46.652 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:10:46.653 [http-nio-9031-exec-4] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:10:46.655 [http-nio-9031-exec-4] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749846655 with initial instances count: 6
+21:10:46.656 [http-nio-9031-exec-4] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application config-client with eureka with status DOWN
+21:10:46.657 [http-nio-9031-exec-4] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:10:46.657 [http-nio-9031-exec-4] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749846657, current=UP, previous=DOWN]
+21:10:46.658 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:10:46.668 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:10:46.827 [http-nio-9031-exec-3] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1f849ed9: startup date [Sun Feb 04 21:10:46 CST 2018]; root of context hierarchy
+21:10:46.853 [http-nio-9031-exec-3] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:46.854 [http-nio-9031-exec-3] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:10:47.008 [http-nio-9031-exec-3] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:47.032 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:47.035 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:47.036 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:47.037 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:47.039 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:47.114 [http-nio-9031-exec-3] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:47.115 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:47.116 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:47.117 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:47.117 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:47.117 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:47.117 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:47.118 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:47.127 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:47.129 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:10:47.130 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749847130 with initial instances count: 6
+21:10:47.308 [http-nio-9031-exec-3] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:10:48.113 [http-nio-9031-exec-3] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=29f1de57ef341aba44faa7dc6a8665762bdbbe13, state=null
+21:10:48.113 [http-nio-9031-exec-3] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:10:48.114 [http-nio-9031-exec-3] INFO  o.s.boot.SpringApplication - No active profile set, falling back to default profiles: default
+21:10:48.115 [http-nio-9031-exec-3] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@682fb4dc: startup date [Sun Feb 04 21:10:48 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1f849ed9
+21:10:48.116 [http-nio-9031-exec-3] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:48.119 [http-nio-9031-exec-3] INFO  o.s.boot.SpringApplication - Started application in 1.448 seconds (JVM running for 293.461)
+21:10:48.119 [http-nio-9031-exec-3] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@682fb4dc: startup date [Sun Feb 04 21:10:48 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1f849ed9
+21:10:48.185 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:10:48.186 [http-nio-9031-exec-3] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:48.187 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+21:10:48.190 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - deregister  status: 200
+21:10:48.192 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:10:48.193 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:48.196 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:48.196 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:48.196 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:48.196 [http-nio-9031-exec-3] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:48.255 [http-nio-9031-exec-3] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:48.274 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:48.275 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:48.275 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:48.275 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:48.276 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:48.276 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:48.276 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:48.284 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:48.284 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:10:48.285 [http-nio-9031-exec-3] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:10:48.287 [http-nio-9031-exec-3] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749848287 with initial instances count: 6
+21:10:48.288 [http-nio-9031-exec-3] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application config-client with eureka with status DOWN
+21:10:48.289 [http-nio-9031-exec-3] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:10:48.289 [http-nio-9031-exec-3] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749848289, current=UP, previous=DOWN]
+21:10:48.290 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:10:48.299 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:10:48.505 [http-nio-9031-exec-2] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4d4b3299: startup date [Sun Feb 04 21:10:48 CST 2018]; root of context hierarchy
+21:10:48.541 [http-nio-9031-exec-2] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:48.544 [http-nio-9031-exec-2] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:10:48.711 [http-nio-9031-exec-2] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:48.720 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:48.725 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:48.726 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:48.726 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:48.727 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:48.790 [http-nio-9031-exec-2] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:48.791 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:48.792 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:48.792 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:48.792 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:48.793 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:48.793 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:48.793 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:48.800 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:48.801 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:10:48.802 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749848802 with initial instances count: 6
+21:10:48.983 [http-nio-9031-exec-2] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:10:49.873 [http-nio-9031-exec-2] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=29f1de57ef341aba44faa7dc6a8665762bdbbe13, state=null
+21:10:49.873 [http-nio-9031-exec-2] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:10:49.875 [http-nio-9031-exec-2] INFO  o.s.boot.SpringApplication - No active profile set, falling back to default profiles: default
+21:10:49.879 [http-nio-9031-exec-2] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@259fe996: startup date [Sun Feb 04 21:10:49 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4d4b3299
+21:10:49.883 [http-nio-9031-exec-2] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:49.888 [http-nio-9031-exec-2] INFO  o.s.boot.SpringApplication - Started application in 1.583 seconds (JVM running for 295.23)
+21:10:49.889 [http-nio-9031-exec-2] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@259fe996: startup date [Sun Feb 04 21:10:49 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4d4b3299
+21:10:49.996 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:10:49.997 [http-nio-9031-exec-2] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:49.998 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+21:10:50.004 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - deregister  status: 200
+21:10:50.011 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:10:50.012 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:50.018 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:50.019 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:50.019 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:50.019 [http-nio-9031-exec-2] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:50.083 [http-nio-9031-exec-2] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:50.085 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:50.085 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:50.085 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:50.086 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:50.086 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:50.086 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:50.086 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:50.108 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:50.109 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:10:50.111 [http-nio-9031-exec-2] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:10:50.113 [http-nio-9031-exec-2] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749850113 with initial instances count: 6
+21:10:50.114 [http-nio-9031-exec-2] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application config-client with eureka with status DOWN
+21:10:50.115 [http-nio-9031-exec-2] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:10:50.115 [http-nio-9031-exec-2] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749850115, current=UP, previous=DOWN]
+21:10:50.116 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:10:50.129 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:10:50.275 [http-nio-9031-exec-1] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@387a9604: startup date [Sun Feb 04 21:10:50 CST 2018]; root of context hierarchy
+21:10:50.312 [http-nio-9031-exec-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:50.313 [http-nio-9031-exec-1] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:10:50.456 [http-nio-9031-exec-1] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:50.474 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:50.477 [http-nio-9031-exec-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:50.478 [http-nio-9031-exec-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:50.479 [http-nio-9031-exec-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:50.480 [http-nio-9031-exec-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:50.554 [http-nio-9031-exec-1] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:50.558 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:50.559 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:50.561 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:50.562 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:50.564 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:50.565 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:50.565 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:50.572 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:50.573 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:10:50.575 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749850575 with initial instances count: 6
+21:10:50.728 [http-nio-9031-exec-1] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:10:51.648 [http-nio-9031-exec-1] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=29f1de57ef341aba44faa7dc6a8665762bdbbe13, state=null
+21:10:51.648 [http-nio-9031-exec-1] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:10:51.650 [http-nio-9031-exec-1] INFO  o.s.boot.SpringApplication - No active profile set, falling back to default profiles: default
+21:10:51.654 [http-nio-9031-exec-1] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@12f3d762: startup date [Sun Feb 04 21:10:51 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@387a9604
+21:10:51.656 [http-nio-9031-exec-1] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:51.662 [http-nio-9031-exec-1] INFO  o.s.boot.SpringApplication - Started application in 1.531 seconds (JVM running for 297.004)
+21:10:51.663 [http-nio-9031-exec-1] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@12f3d762: startup date [Sun Feb 04 21:10:51 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@387a9604
+21:10:51.782 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:10:51.783 [http-nio-9031-exec-1] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:51.784 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+21:10:51.791 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - deregister  status: 200
+21:10:51.794 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:10:51.800 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:51.803 [http-nio-9031-exec-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:51.804 [http-nio-9031-exec-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:51.804 [http-nio-9031-exec-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:51.804 [http-nio-9031-exec-1] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:51.862 [http-nio-9031-exec-1] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:51.866 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:51.867 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:51.868 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:51.868 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:51.868 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:51.869 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:51.869 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:51.875 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:51.876 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:10:51.879 [http-nio-9031-exec-1] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:10:51.880 [http-nio-9031-exec-1] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749851880 with initial instances count: 6
+21:10:51.881 [http-nio-9031-exec-1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application config-client with eureka with status DOWN
+21:10:51.881 [http-nio-9031-exec-1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:10:51.881 [http-nio-9031-exec-1] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749851881, current=UP, previous=DOWN]
+21:10:51.897 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:10:51.908 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:10:52.158 [http-nio-9031-exec-10] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@ca2154e: startup date [Sun Feb 04 21:10:52 CST 2018]; root of context hierarchy
+21:10:52.258 [http-nio-9031-exec-10] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:52.261 [http-nio-9031-exec-10] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:10:52.524 [http-nio-9031-exec-10] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:52.549 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:52.551 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:52.551 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:52.552 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:52.552 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:52.648 [http-nio-9031-exec-10] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:52.652 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:52.658 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:52.659 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:52.659 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:52.659 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:52.660 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:52.660 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:52.669 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:52.671 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:10:52.673 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749852673 with initial instances count: 6
+21:10:52.963 [http-nio-9031-exec-10] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:10:53.485 [http-nio-9031-exec-10] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=29f1de57ef341aba44faa7dc6a8665762bdbbe13, state=null
+21:10:53.485 [http-nio-9031-exec-10] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:10:53.486 [http-nio-9031-exec-10] INFO  o.s.boot.SpringApplication - No active profile set, falling back to default profiles: default
+21:10:53.487 [http-nio-9031-exec-10] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@363dd103: startup date [Sun Feb 04 21:10:53 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@ca2154e
+21:10:53.488 [http-nio-9031-exec-10] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:10:53.501 [http-nio-9031-exec-10] INFO  o.s.boot.SpringApplication - Started application in 1.607 seconds (JVM running for 298.842)
+21:10:53.501 [http-nio-9031-exec-10] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@363dd103: startup date [Sun Feb 04 21:10:53 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@ca2154e
+21:10:53.559 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:10:53.559 [http-nio-9031-exec-10] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:10:53.560 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+21:10:53.564 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - deregister  status: 200
+21:10:53.566 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:10:53.567 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:10:53.569 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:10:53.569 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:10:53.569 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:10:53.569 [http-nio-9031-exec-10] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:10:53.630 [http-nio-9031-exec-10] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:10:53.640 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:10:53.642 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:10:53.643 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:10:53.643 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:10:53.643 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:10:53.643 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:10:53.644 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:10:53.653 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:10:53.655 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:10:53.656 [http-nio-9031-exec-10] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:10:53.657 [http-nio-9031-exec-10] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517749853657 with initial instances count: 6
+21:10:53.658 [http-nio-9031-exec-10] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application config-client with eureka with status DOWN
+21:10:53.658 [http-nio-9031-exec-10] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:10:53.659 [http-nio-9031-exec-10] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517749853659, current=UP, previous=DOWN]
+21:10:53.660 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:10:53.669 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:12:01.249 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:12:58.267 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:14:31.586 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2a3b5b47: startup date [Sun Feb 04 21:14:31 CST 2018]; root of context hierarchy
+21:14:31.778 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+21:14:31.829 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:14:31.849 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:14:32.123 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:14:32.201 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:14:32.464 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:14:32.464 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:14:32.549 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:14:32.549 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:14:32.710 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:14:32.758 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:14:32.759 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:14:32.759 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:14:32.759 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:14:32.759 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:14:32.759 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:14:32.759 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:14:32.879 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:14:32.880 [main] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:14:32.883 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517750072883 with initial instances count: 6
+21:14:33.124 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:14:36.970 [main] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=6a40fd71ee987c36b8d5237b4a875bd8a4fe1ada, state=null
+21:14:36.970 [main] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:14:36.972 [main] INFO  c.k.b.config.ConfigClientApplication - No active profile set, falling back to default profiles: default
+21:14:36.982 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62db3891: startup date [Sun Feb 04 21:14:36 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2a3b5b47
+21:14:37.580 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=4bdd1e25-06b5-3198-a4bc-f7b50faba884
+21:14:37.594 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:14:37.649 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$26e4b7f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:14:37.659 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:14:37.938 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9031 (http)
+21:14:37.947 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:14:37.948 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+21:14:38.113 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:14:38.113 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1131 ms
+21:14:38.329 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+21:14:38.333 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+21:14:38.333 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+21:14:38.333 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+21:14:38.333 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+21:14:38.333 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+21:14:38.333 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+21:14:38.333 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+21:14:38.588 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+21:14:38.589 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+21:14:38.595 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+21:14:38.595 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+21:14:38.762 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@62db3891: startup date [Sun Feb 04 21:14:36 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@2a3b5b47
+21:14:38.837 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String com.konghao.book.config.controller.TestController.test()
+21:14:38.840 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+21:14:38.841 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+21:14:38.864 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:14:38.864 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:14:38.909 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+21:14:39.307 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+21:14:39.308 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:14:39.308 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:14:39.308 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+21:14:39.309 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+21:14:39.309 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:14:39.310 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:14:39.310 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:14:39.311 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:14:39.312 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+21:14:39.312 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:14:39.313 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+21:14:39.313 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:14:39.313 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+21:14:39.314 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+21:14:39.314 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:14:39.315 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:14:39.315 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+21:14:39.315 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:14:39.316 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+21:14:39.316 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+21:14:39.316 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+21:14:39.317 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+21:14:39.317 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+21:14:39.317 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+21:14:39.319 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+21:14:39.319 [main] INFO  o.s.b.a.e.mvc.EndpointHandlerMapping - Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+21:14:39.404 [main] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:14:39.411 [main] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:14:39.455 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+21:14:39.460 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+21:14:39.461 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+21:14:39.461 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+21:14:39.461 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+21:14:39.462 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+21:14:39.462 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+21:14:39.464 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+21:14:39.472 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+21:14:39.478 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+21:14:39.482 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+21:14:39.489 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=62db3891,type=ConfigurationPropertiesRebinder]
+21:14:39.493 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+21:14:39.494 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Registering beans for JMX exposure on startup
+21:14:39.613 [main] INFO  o.s.c.s.DefaultLifecycleProcessor - Starting beans in phase 0
+21:14:39.617 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:14:39.625 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:14:39.627 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:14:39.628 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:14:39.628 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:14:39.628 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:14:39.672 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:14:39.674 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:14:39.674 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:14:39.674 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:14:39.674 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:14:39.674 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:14:39.674 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:14:39.674 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:14:39.679 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:14:39.679 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:14:39.680 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:14:39.681 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517750079681 with initial instances count: 6
+21:14:39.705 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:14:39.705 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517750079705, current=UP, previous=STARTING]
+21:14:39.707 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:14:39.709 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+21:14:39.712 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+21:14:39.716 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+21:14:39.718 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+21:14:39.720 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+21:14:39.723 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+21:14:39.727 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+21:14:39.729 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+21:14:39.732 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+21:14:39.736 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+21:14:39.738 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+21:14:39.739 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
+21:14:39.740 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+21:14:39.741 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+21:14:39.743 [main] INFO  o.s.b.a.e.jmx.EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+21:14:39.760 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9031"]
+21:14:39.767 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9031"]
+21:14:39.787 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+21:14:39.798 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9031 (http)
+21:14:39.799 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9031
+21:14:39.802 [main] INFO  c.k.b.config.ConfigClientApplication - Started ConfigClientApplication in 8.508 seconds (JVM running for 8.917)
+21:14:57.831 [http-nio-9031-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+21:14:57.831 [http-nio-9031-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+21:14:57.847 [http-nio-9031-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+21:15:06.449 [http-nio-9031-exec-5] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@38904a8a: startup date [Sun Feb 04 21:15:06 CST 2018]; root of context hierarchy
+21:15:06.500 [http-nio-9031-exec-5] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:15:06.530 [http-nio-9031-exec-5] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:15:06.693 [http-nio-9031-exec-5] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:15:06.711 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:15:06.714 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:15:06.715 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:15:06.716 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:15:06.716 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:15:06.769 [http-nio-9031-exec-5] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:15:06.770 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:15:06.770 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:15:06.770 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:15:06.771 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:15:06.771 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:15:06.771 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:15:06.771 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:15:06.777 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:15:06.778 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Not registering with Eureka server per configuration
+21:15:06.779 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517750106779 with initial instances count: 6
+21:15:06.979 [http-nio-9031-exec-5] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Fetching config from server at: http://DESKTOP-CCLRIAF:9030/
+21:15:08.238 [http-nio-9031-exec-5] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator - Located environment: name=config-client, profiles=[dev], label=master, version=ebc4d65a7aef587d0ba1c902cd0da3156d0b6dce, state=null
+21:15:08.239 [http-nio-9031-exec-5] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: CompositePropertySource [name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client-dev.properties'}, MapPropertySource {name='https://github.com/konghao8013/e-bookconfig-server.git/config-client.properties'}]]
+21:15:08.240 [http-nio-9031-exec-5] INFO  o.s.boot.SpringApplication - No active profile set, falling back to default profiles: default
+21:15:08.242 [http-nio-9031-exec-5] INFO  o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7741eb38: startup date [Sun Feb 04 21:15:08 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@38904a8a
+21:15:08.245 [http-nio-9031-exec-5] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+21:15:08.253 [http-nio-9031-exec-5] INFO  o.s.boot.SpringApplication - Started application in 1.928 seconds (JVM running for 37.369)
+21:15:08.254 [http-nio-9031-exec-5] INFO  o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@7741eb38: startup date [Sun Feb 04 21:15:08 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@38904a8a
+21:15:08.504 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+21:15:08.506 [http-nio-9031-exec-5] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+21:15:08.506 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+21:15:08.510 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - deregister  status: 200
+21:15:08.513 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+21:15:08.515 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+21:15:08.517 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+21:15:08.517 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+21:15:08.517 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+21:15:08.518 [http-nio-9031-exec-5] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+21:15:08.558 [http-nio-9031-exec-5] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+21:15:08.559 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+21:15:08.559 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+21:15:08.560 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+21:15:08.560 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+21:15:08.560 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+21:15:08.560 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+21:15:08.560 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+21:15:08.564 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+21:15:08.564 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+21:15:08.565 [http-nio-9031-exec-5] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+21:15:08.566 [http-nio-9031-exec-5] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1517750108566 with initial instances count: 6
+21:15:08.567 [http-nio-9031-exec-5] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application config-client with eureka with status DOWN
+21:15:08.567 [http-nio-9031-exec-5] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application config-client with eureka with status UP
+21:15:08.567 [http-nio-9031-exec-5] WARN  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1517750108567, current=UP, previous=DOWN]
+21:15:08.568 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031: registering service...
+21:15:08.573 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_CONFIG-CLIENT/DESKTOP-CCLRIAF:config-client:9031 - registration status: 204
