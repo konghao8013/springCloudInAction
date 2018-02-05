@@ -9,9 +9,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.konghao.springcloud</groupId>
-	<artifactId>config-server</artifactId>
+	<artifactId>config-server-encrypt-symmetric</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>config-server</name>
+	<name>config-server-encrypt-symmetric</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

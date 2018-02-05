@@ -12,6 +12,8 @@
 		<module>config-server</module>
 		<module>config-client</module>
 		<module>config-client-refresh</module>
+		<module>config-server-encrypt-symmetric</module>
+		<module>config-encrypt-symmetric-product-core</module>
 		
 	</modules>
 	<dependencies>
