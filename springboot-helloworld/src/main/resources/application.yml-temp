@@ -1,0 +1,7 @@
+server:
+    port: 9090
+    
+konghao:
+    number: ${random.int}
+    hello: hi-yml,konghao!
+    msg: hi,hello world! ${konghao.hello} ${konghao.number}
